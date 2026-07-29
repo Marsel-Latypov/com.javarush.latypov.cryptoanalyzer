@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Encrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestOutput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserOperations.java" afterDir="false" />
+    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="28.07.26 16-50">
+      <change afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.javarush.latypov.cryptoanalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.javarush.latypov.cryptoanalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alphabet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encrypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainApp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/NITRO/IdeaProjects/com.javarush.latypov.cryptoanalyzer/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/NITRO/IdeaProjects/com.javarush.latypov.cryptoanalyzer/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NITRO\IdeaProjects\com.javarush.latypov.cryptoanalyzer\src" />
@@ -71,6 +67,8 @@
   </component>
   <component name="RunManager">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-26" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="MainApp" />
       <module name="com.javarush.latypov.cryptoanalyzer" />
@@ -100,15 +98,5 @@
       <updated>1785233867937</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.io.IOException" package="java.io" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

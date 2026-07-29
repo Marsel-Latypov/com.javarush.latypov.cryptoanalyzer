@@ -1,0 +1,48 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"78e70265-c941-4cd1-87d8-dd67f58b97fc\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Alphabet.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Cipher.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/FileManager.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Test.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/UserMenu.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Validator.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/MainApp.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"Marsel-Latypov\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/Marsel-Latypov/com.javarush.latypov.cryptoanalyzer.git\",\r\n    \"accountId\": \"a9daf9b8-153e-4670-922e-587a7720f1a2\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 2\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"3H7zP6KF1ZQE5vYZas9PC998voL\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/NITRO/IdeaProjects/com.javarush.latypov.cryptoanalyzer/src\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.0\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\NITRO\\IdeaProjects\\com.javarush.latypov.cryptoanalyzer\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"78e70265-c941-4cd1-87d8-dd67f58b97fc\" name=\"Changes\" comment=\"\" />\r\n      <created>1785233867937</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1785233867937</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8da9378db4bacde12a2d98e8451aab4510bf6663)
++++ b/.idea/workspace.xml	(date 1785246793447)
+@@ -1,15 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/Alphabet.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/FileManager.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Test.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Validator.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
+-    </list>
++    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="28.07.26 16-50" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -78,6 +70,19 @@
+       <option name="presentableId" value="Default" />
+       <updated>1785233867937</updated>
+     </task>
++    <task id="LOCAL-00001" summary="28.07.26 16-50">
++      <option name="closed" value="true" />
++      <created>1785246646061</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1785246646061</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="28.07.26 16-50" />
++    <option name="LAST_COMMIT_MESSAGE" value="28.07.26 16-50" />
++  </component>
+ </project>
+\ No newline at end of file

@@ -1,6 +1,7 @@
 import java.io.*;
 
 public class FileManager {
+    String originalText;
 
     public String inputOriginalText(String pathInput) {
 
@@ -24,7 +25,8 @@ public class FileManager {
             }
         }
 
-        return inputOriginalTextStringBuilder.toString();
+
+        return  originalText = inputOriginalTextStringBuilder.toString();
     }
 
 

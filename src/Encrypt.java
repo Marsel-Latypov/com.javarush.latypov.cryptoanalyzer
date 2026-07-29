@@ -1,5 +1,7 @@
 public class Encrypt {
-    public int decrypt(int key){
+    public static int key;
+
+    public int encrypt(int key){
         return key;
     }
 }

@@ -3,43 +3,43 @@ import java.util.Scanner;
 public class UserMenu {
 
     public void menuOperations() {
-        System.out.println(Constants.greetings);
-        System.out.println(Constants.chooseOperation);
-        System.out.println(Constants.operationList);
+        System.out.println(TextConstants.GREETINGS);
+        System.out.println(TextConstants.CHOOSE_OPERATION);
+        System.out.println(TextConstants.OPERATION_LIST);
         Scanner scanner = new Scanner(System.in);
         int menuItem = scanner.nextInt();
+        scanner.nextLine();
         switch (menuItem) {
-            case 0:
-                break;
             case 1:
-                System.out.println(Constants.indicatePathToRead);
-                String pathInput = scanner.nextLine();
-                String pathOutput = scanner.nextLine();
-                FileManager startWriteOriginalText = new FileManager();
-                startWriteOriginalText.inputOriginalText(pathInput);
-                System.out.println(Constants.keyMessage);
-                int key = scanner.nextInt();
-                Encrypt startEncryptOriginalText = new Encrypt();
-                startEncryptOriginalText.encrypt(key);
+                System.out.println(TextConstants.INDICATE_PATH_TO_READ);
+                String tempIn = scanner.nextLine();
+                System.out.println(TextConstants.INDICATE_PATH_TO_WRITE);
+                String tempOut = scanner.nextLine();
+                System.out.println(TextConstants.KEY_MESSAGE);
+                int tempKey = scanner.nextInt();
+                scanner.nextLine();
+                FileManager fileManager = new FileManager();
                 Cipher cipher = new Cipher();
-                cipher.cipherProcess(startWriteOriginalText.originalText, Encrypt.key, Alphabet.ALPHABET);
-                startWriteOriginalText.outputEncryptText(cipher.cipherText, pathOutput);
+                cipher.cipherProcess(fileManager.inputOriginalText(tempIn),tempKey,Alphabet.ALPHABET );
+                fileManager.outputEncryptText((tempOut),cipher.cipherText);
+                menuOperations();
                 break;
             case 2:
-                System.out.println(Constants.indicatePathToRead);
-                pathInput = scanner.nextLine();
-                pathOutput = scanner.nextLine();
-                startWriteOriginalText = new FileManager();
-                startWriteOriginalText.inputOriginalText(pathInput);
-                System.out.println(Constants.keyMessage);
-                key = scanner.nextInt();
-                startEncryptOriginalText = new Encrypt();
-                startEncryptOriginalText.encrypt(key);
+                System.out.println(TextConstants.INDICATE_PATH_TO_READ);
+                tempIn = scanner.nextLine();
+                System.out.println(TextConstants.INDICATE_PATH_TO_WRITE);
+                tempOut = scanner.nextLine();
+                System.out.println(TextConstants.KEY_MESSAGE);
+                tempKey = scanner.nextInt();
+                scanner.nextLine();
+                fileManager = new FileManager();
                 cipher = new Cipher();
-                cipher.cipherProcess(startWriteOriginalText.originalText, Decrypt.key, Alphabet.ALPHABET);
-                startWriteOriginalText.outputEncryptText(cipher.cipherText, pathOutput);
+                cipher.cipherProcess(fileManager.inputOriginalText(tempIn),-tempKey,Alphabet.ALPHABET );
+                fileManager.outputEncryptText((tempOut),cipher.cipherText);
+                menuOperations();
                 break;
             case 3:
+                System.exit(0);
                 break;
         }
     }

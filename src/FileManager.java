@@ -1,7 +1,8 @@
 import java.io.*;
 
 public class FileManager {
-    String originalText;
+
+    public String originalText;
 
     public String inputOriginalText(String pathInput) {
 
@@ -25,16 +26,15 @@ public class FileManager {
             }
         }
 
-
         return  originalText = inputOriginalTextStringBuilder.toString();
     }
 
 
-    public void outputEncryptText(String pathOutput, String encryptText) {
+    public void outputEncryptText(String pathOutput, String cipherText) {
         FileWriter writerForOutput = null;
         try {
             writerForOutput = new FileWriter(pathOutput);
-            writerForOutput.write(encryptText);
+            writerForOutput.write(cipherText);
 
         } catch (IOException e) {
             System.out.println("Ошибка: " + e.getMessage());

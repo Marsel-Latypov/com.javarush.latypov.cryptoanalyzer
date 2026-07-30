@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="28.07.26 16-50">
-      <change afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
+    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="29.07.26 16-08">
+      <change afterPath="$PROJECT_DIR$/src/TestDecrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TestOutput" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TestOutput" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encrypt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestOutput" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestOutput" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/NITRO/IdeaProjects/com.javarush.latypov.cryptoanalyzer/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/NITRO/IdeaProjects/com.javarush.latypov.cryptoanalyzer/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NITRO\IdeaProjects\com.javarush.latypov.cryptoanalyzer\src" />
@@ -97,6 +105,28 @@
       <option name="presentableId" value="Default" />
       <updated>1785233867937</updated>
     </task>
+    <task id="LOCAL-00001" summary="29.07.26 16-08">
+      <option name="closed" value="true" />
+      <created>1785330491896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785330491896</updated>
+    </task>
+    <task id="LOCAL-00002" summary="29.07.26 16-08">
+      <option name="closed" value="true" />
+      <created>1785330649405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785330649405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="29.07.26 16-10" />
+    <MESSAGE value="29.07.26 16-08" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.07.26 16-08" />
   </component>
 </project>

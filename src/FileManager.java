@@ -2,8 +2,6 @@ import java.io.*;
 
 public class FileManager {
 
-    public String originalText;
-
     public String inputOriginalText(String pathInput) {
 
         StringBuilder inputOriginalTextStringBuilder = null;
@@ -26,15 +24,15 @@ public class FileManager {
             }
         }
 
-        return  originalText = inputOriginalTextStringBuilder.toString();
+        return  inputOriginalTextStringBuilder.toString();
     }
 
 
-    public void outputEncryptText(String pathOutput, String cipherText) {
+    public void outputEncryptText(String pathOutput, String encryptText) {
         FileWriter writerForOutput = null;
         try {
             writerForOutput = new FileWriter(pathOutput);
-            writerForOutput.write(cipherText);
+            writerForOutput.write(encryptText);
 
         } catch (IOException e) {
             System.out.println("Ошибка: " + e.getMessage());

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="29.07.26 16-08">
-      <change afterPath="$PROJECT_DIR$/src/TestDecrypt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="78e70265-c941-4cd1-87d8-dd67f58b97fc" name="Changes" comment="28.07.26 16-50">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/Cipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/Cipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TestDecrypt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TestDecrypt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TestOutput" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TestOutput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TextConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/TextConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/UserMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.javarush.latypov.cryptoanalyzer/UserMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decrypt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encrypt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestDecrypt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDecrypt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestOutput" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestOutput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Marsel-Latypov/com.javarush.latypov.cryptoanalyzer.git&quot;,
-    &quot;accountId&quot;: &quot;a9daf9b8-153e-4670-922e-587a7720f1a2&quot;
+    &quot;accountId&quot;: &quot;45214919-129f-402c-b842-f3fc638de783&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -63,9 +66,10 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/NITRO/IdeaProjects/com.javarush.latypov.cryptoanalyzer/src",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,28 +109,17 @@
       <option name="presentableId" value="Default" />
       <updated>1785233867937</updated>
     </task>
-    <task id="LOCAL-00001" summary="29.07.26 16-08">
-      <option name="closed" value="true" />
-      <created>1785330491896</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1785330491896</updated>
-    </task>
-    <task id="LOCAL-00002" summary="29.07.26 16-08">
-      <option name="closed" value="true" />
-      <created>1785330649405</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1785330649405</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="29.07.26 16-10" />
-    <MESSAGE value="29.07.26 16-08" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.07.26 16-08" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

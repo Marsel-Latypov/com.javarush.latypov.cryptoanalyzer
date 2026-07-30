@@ -1,4 +1,4 @@
-import java.util.Scanner;лл
+import java.util.Scanner;
 
 public class UserMenu {
 
